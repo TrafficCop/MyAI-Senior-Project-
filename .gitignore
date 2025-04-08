@@ -1,0 +1,33 @@
+env
+**/__pycache__/
+#datasetstf/datasets/
+cleaned_server_tf.txt
+old_server_tf.txt
+
+####### EXCLUDE TERRAFORM STATE
+# Terraform state files
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfstate.backup
+**/*.tfstate.lock.info
+
+# Terraform directory
+**/.terraform/
+
+# Terraform crash log files
+**/crash.log
+**/crash.*.log
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfvars files that might contain sensitive data
+**/*.tfvars.json
+
+# CLI configuration files
+**/.terraformrc
+**/terraform.rc
+
+# Exclude terraform lock files
+**/.terraform.lock.hcl
+############################
